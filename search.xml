@@ -4,11 +4,24 @@
   
     
     <entry>
+      <title>hexo d更新博客失败解决</title>
+      <link href="/2024/09/09/hexo-d%E6%9B%B4%E6%96%B0%E5%8D%9A%E5%AE%A2%E5%A4%B1%E8%B4%A5%E8%A7%A3%E5%86%B3/"/>
+      <url>/2024/09/09/hexo-d%E6%9B%B4%E6%96%B0%E5%8D%9A%E5%AE%A2%E5%A4%B1%E8%B4%A5%E8%A7%A3%E5%86%B3/</url>
+      
+        <content type="html"><![CDATA[<h1 id="hexo-d-更新失败解决"><a href="#hexo-d-更新失败解决" class="headerlink" title="hexo -d 更新失败解决"></a>hexo -d 更新失败解决</h1><p><strong>更新Windows系统，更换系统盘，导致本地git环境发生变换（如果需要更换系统盘，必须备份系统环境）</strong></p><p><strong>git环境失效后，需要重新配置git，配置对应的blog项目</strong></p><p>试了好几种网上的方法解决。这里总结终极解决办法！</p><p>获取git 的ssh秘钥</p><img decoding="async" src="https://pic.imgdb.cn/item/66f0270df21886ccc0be0887.png" width="100%"><p>然后去github重新配置ssh秘钥</p><img decoding="async" src="https://pic.imgdb.cn/item/66f0262ef21886ccc0bd01eb.png" width="100%"><p><strong>第三步删除blog下面的.deploy文件夹</strong></p><img decoding="async" src="https://pic.imgdb.cn/item/66f028f1f21886ccc0c01f29.png" width="100%"><p>hexo g<br>hexo d</p><p>就解决了项目更新问题了！</p><p>部分步骤参考<a href="https://blog.csdn.net/yesyesyes_yes/article/details/141783006?spm=1001.2014.3001.5506">hexo d 报错-CSDN博客</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hexo编写文章教程</title>
       <link href="/2024/08/14/Hexo%E7%BC%96%E5%86%99%E6%96%87%E7%AB%A0%E6%95%99%E7%A8%8B/"/>
       <url>/2024/08/14/Hexo%E7%BC%96%E5%86%99%E6%96%87%E7%AB%A0%E6%95%99%E7%A8%8B/</url>
       
-        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><ul><li>Markdown可以理解为了一种轻量级HTML标记语言，帮助我们轻松的进行文章排版。</li><li>缩写是.md，是比较常用的。</li></ul><p>在hexo博客框架下创建自己的文章。（<em>Hexo</em>是一个快速,简洁高效的博客框架）。</p><h2 id="1-下载typora"><a href="#1-下载typora" class="headerlink" title="1.下载typora"></a>1.下载typora</h2><p>（typora非常适合用来编写轻量级的html，用来编写hexo下的文章再合适不过了）</p><h4 id="安装："><a href="#安装：" class="headerlink" title="安装："></a>安装：</h4><p>Typora中文官网：<code>https://typoraio.cn/</code></p><p>安装激活教程参考<a href="http://t.csdnimg.cn/1MLk0">http://t.csdnimg.cn/1MLk0</a></p><h2 id="2-新建文章"><a href="#2-新建文章" class="headerlink" title="2.新建文章"></a>2.新建文章</h2><p><em>输入命令：hexo new “文章名称”</em></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new “文章名称”</span><br></pre></td></tr></table></figure><img decoding="async" src="https://gitee.com/xiexieya233/xiexieya_images/raw/master/images_hexo/t1.png" width="100%"><h2 id="3-编写内容"><a href="#3-编写内容" class="headerlink" title="3.编写内容"></a>3.编写内容</h2><p>在typora里面编写内容，注意看下面的图解！</p><p><strong>特别要注意的是要光标回车到下面！！！！</strong></p><img decoding="async" src="https://gitee.com/xiexieya233/xiexieya_images/raw/master/images_hexo/t2.png" width="100%"><img decoding="async" src="https://gitee.com/xiexieya233/xiexieya_images/raw/master/images_hexo/t3.png" width="100%"><img decoding="async" src="https://gitee.com/xiexieya233/xiexieya_images/raw/master/images_hexo/t4.png" width="100%"><h2 id="4-编写md语法的使用"><a href="#4-编写md语法的使用" class="headerlink" title="4.编写md语法的使用"></a>4.编写md语法的使用</h2><p>参看<a href="http://t.csdnimg.cn/4vYuQ">http://t.csdnimg.cn/4vYuQ</a></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><ul><li>Markdown可以理解为了一种轻量级HTML标记语言，帮助我们轻松的进行文章排版。</li><li>缩写是.md，是比较常用的。</li></ul><p>在hexo博客框架下创建自己的文章。（<em>Hexo</em>是一个快速,简洁高效的博客框架）。</p><h2 id="1-下载typora"><a href="#1-下载typora" class="headerlink" title="1.下载typora"></a>1.下载typora</h2><p>（typora非常适合用来编写轻量级的html，用来编写hexo下的文章再合适不过了）</p><h4 id="安装："><a href="#安装：" class="headerlink" title="安装："></a>安装：</h4><p>Typora中文官网：<code>https://typoraio.cn/</code></p><p>安装激活教程参考<a href="http://t.csdnimg.cn/1MLk0">http://t.csdnimg.cn/1MLk0</a></p><h2 id="2-新建文章"><a href="#2-新建文章" class="headerlink" title="2.新建文章"></a>2.新建文章</h2><p><em>输入命令：hexo new “文章名称”</em></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new “文章名称”</span><br></pre></td></tr></table></figure><img decoding="async" src="https://gitee.com/xiexieya233/xiexieya_images/raw/master/images_hexo/t1.png" width="100%"><h2 id="3-编写内容"><a href="#3-编写内容" class="headerlink" title="3.编写内容"></a>3.编写内容</h2><p>在typora里面编写内容，注意看下面的图解！</p><p><strong>特别要注意的是要光标回车到下面！！！！</strong></p><img decoding="async" src="https://gitee.com/xiexieya233/xiexieya_images/raw/master/images_hexo/t2.png" width="100%"><img decoding="async" src="https://gitee.com/xiexieya233/xiexieya_images/raw/master/images_hexo/t3.png" width="100%"><img decoding="async" src="https://gitee.com/xiexieya233/xiexieya_images/raw/master/images_hexo/t4.png" width="100%"><h2 id="4-编写md语法的使用"><a href="#4-编写md语法的使用" class="headerlink" title="4.编写md语法的使用"></a>4.编写md语法的使用</h2><p>参看<a href="https://blog.csdn.net/weixin_45894702/article/details/128766777?spm=1001.2014.3001.5506">学习现代化的文章编写方式——关于Markdown语法的使用_md 代码块-CSDN博客</a></p>]]></content>
       
       
       
